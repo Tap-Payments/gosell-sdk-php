@@ -1,0 +1,30 @@
+{
+    "name": "hp/tap_sdk",
+    "authors": [
+        {
+            "name": "waqastanoli",
+            "email": "w.tanoli@tap.company"
+        }
+    ],
+    "require": {
+    	 "php": ">=5.6.0",
+        "guzzlehttp/guzzle": "^6.5",
+        "phpunit/phpunit": "^5.7"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*"
+    },
+    "autoload": {
+	    "psr-4": {
+	      "TapPayments\\": "src/"
+	    }
+	  },
+  "autoload-dev": {
+    "psr-4": {
+      "TapPayments\\": [
+        "tests/",
+        "tests/TapPayments/"
+      ]
+    }
+  }
+}
