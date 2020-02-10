@@ -1,11 +1,11 @@
 {
-    "name": "waqastanoli/tappayments",
+    "name": "tappayments/goSell",
     "license": "MIT",
     "minimum-stability": "stable",
     "authors": [
         {
-            "name": "waqastanoli",
-            "email": "engineerwaqas86@gmail.com"
+            "name": "Waqas Tanoli",
+            "email": "w.tanoli@tap.company"
         }
     ],
     "require": {
