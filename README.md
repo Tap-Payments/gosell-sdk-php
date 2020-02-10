@@ -34,88 +34,51 @@ If you do not wish to use Composer, you can download the latest release. Then, t
 use TapPayments\GoSell;
 
   
-
-GoSell::setSecretKey(‘sk_test_xxxxxxx’);
+//set yout secret key here
+GoSell::setSecretKey("sk_test_XKokBfNWv6FIYuTMg5sLPjhJ");
 
   
 
-$charge = GoSell\Charge::create([
-			"amount": 1,
-
-	  "currency": "KWD",
-
-      "threeDSecure": true,
-
-		"save_card": false,
-
-		"description": "Test Description",
-
-		"statement_descriptor": "Sample",
-
-		"metadata": [
-
-		"udf1": "test 1",
-
-		"udf2": "test 2"
-
-],
-
-"reference": [
-
-"transaction": "txn_0001",
-
-"order": "ord_0001"
-
-],
-
-"receipt": [
-
-"email": false,
-
-"sms": true
-
-],
-
-"customer": [
-
-"first_name": "test",
-
-"middle_name": "test",
-
-"last_name": "test",
-
-"email": "test@test.com",
-
-"phone": [
-
-"country_code": "965",
-
-"number": "50000000"
-
-]
-
-],
-
-"source": [
-
-"id": "src_kw.knet"
-
-],
-
-"post": [
-
-"url": "http://your_website.com/post_url"
-
-],
-
-"redirect": [
-
-"url": "http://your_website.com/redirect_url"
-
-]
-
-]
-
+$charge = GoSell\Charge::create(
+	[
+      "amount"=> 1,
+      "currency"=> "KWD",
+      "threeDSecure"=> true,
+      "save_card"=> false,
+      "description"=> "Test Description",
+      "statement_descriptor"=> "Sample",
+      "metadata"=> [
+        "udf1"=> "test 1",
+        "udf2"=> "test 2"
+      ],
+      "reference"=> [
+        "transaction"=> "txn_0001",
+        "order"=> "ord_0001"
+      ],
+      "receipt"=> [
+        "email"=> false,
+        "sms"=> true
+      ],
+      "customer"=> [
+        "first_name"=> "test",
+        "middle_name"=> "test",
+        "last_name"=> "test",
+        "email"=> "test@test.com",
+        "phone"=> [
+          "country_code"=> "965",
+          "number"=> "50000000"
+        ]
+      ],
+      "source"=> [
+        "id"=> "src_all"
+      ],
+      "post"=> [
+        "url"=> "http://your_website.com/post_url"
+      ],
+      "redirect"=> [
+        "url"=> "http://your_website.com/redirect_url"
+      ]
+    ]
 );
 
   
