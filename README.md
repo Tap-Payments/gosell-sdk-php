@@ -30,7 +30,8 @@ If you do not wish to use Composer, you can download the latest release. Then, t
 
 ## Getting Started
 
-```use TapPayments\GoSell;
+```
+use TapPayments\GoSell;
 
   
 
