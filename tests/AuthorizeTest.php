@@ -67,7 +67,9 @@ class AuthorizeTest extends TestCase{
             self::$id
         );
     }
-
+    public function testVoid(){
+      GoSell\Authorize::void(self::$id);
+    }
     public function testUpdate(){
     	$updated_authorize = GoSell\Authorize::update(self::$id,[
         "description"=> "test description",

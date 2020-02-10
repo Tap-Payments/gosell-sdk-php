@@ -10,6 +10,9 @@ use GuzzleHttp\Psr7\Response;
 trait Common
 {
 
+    public static function testingTrait(){
+        self::_validateParams('POST',[]);
+    }
     protected static function _staticRequest($method, $url, $params, $options)
     {
         try{

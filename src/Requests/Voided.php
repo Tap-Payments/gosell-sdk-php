@@ -7,7 +7,7 @@ namespace TapPayments\Requests;
  *
  * This trait should only be applied to classes that derive from GoSellObjects.
  */
-trait Void
+trait Voided
 {
     
     public static function void( $id = null, $options = null)

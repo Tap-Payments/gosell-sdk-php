@@ -1,4 +1,5 @@
 <?php
+//changed
 require('vendor/autoload.php');
 use TapPayments\GoSell;
 //$goSell = new GoSell\GoSell();
