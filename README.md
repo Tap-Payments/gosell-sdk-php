@@ -90,5 +90,7 @@ var_dump($charge); //will give charge response as PHP object
 
 ## More Help
 
-* [[ Charges ]]
-* [[ Authorize ]]
+* [Charges](https://github.com/Tap-Payments/gosell-sdk-php/wiki/Charges)
+* [Authorize](https://github.com/Tap-Payments/gosell-sdk-php/wiki/Authorize)
+* [Customers](https://github.com/Tap-Payments/gosell-sdk-php/wiki/Customers)
+* [Refunds](https://github.com/Tap-Payments/gosell-sdk-php/wiki/Refunds)
