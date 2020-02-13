@@ -18,7 +18,7 @@ This library supports PHP 5.6 and later.
 ## Installation
 The recommended way to install GoSell PHP SDK is through [Composer](https://getcomposer.org):
 
-```composer require tap-payments/gosell-php-sdk```
+```composer require tappayments/gosell```
 
 To use the bindings, use Composer's [autoload](https://getcomposer.org/doc/01-basic-usage.md#autoloading):
 
