@@ -1,7 +1,7 @@
 
 ![PHP from Packagist (specify version)](https://img.shields.io/packagist/php-v/tappayments/gosell)
 [![Latest Stable Version](https://poser.pugx.org/tappayments/gosell/v/stable)](https://packagist.org/packages/tappayments/gosell)
-[![Build Status](https://travis-ci.com/waqastanoli/tappayments.svg?branch=master)](https://travis-ci.com/tappayments/gosell)
+[![Build Status](https://travis-ci.com/tappayments/gosell.svg?branch=master)](https://travis-ci.com/tappayments/gosell)
 [![Total Downloads](https://poser.pugx.org/tappayments/gosell/downloads)](https://packagist.org/packages/tappayments/gosell)
 [![License](https://poser.pugx.org/tappayments/gosell/license)](https://packagist.org/packages/tappayments/gosell)
 [![Coverage Status](https://coveralls.io/repos/github/tappayments/gosell/badge.svg?branch=master)](https://coveralls.io/github/tappayments/gosell?branch=master)
@@ -14,7 +14,6 @@ Official bindings to GoSell API
 This library supports PHP 5.6 and later.
 
 ## Installation
-This library uses [guzzle](https://github.com/guzzle/guzzle) as HTTP client. 
 The recommended way to install GoSell PHP SDK is through [Composer](https://getcomposer.org):
 
 ```composer require tap-payments/gosell-php-sdk```
@@ -83,4 +82,13 @@ $charge = GoSell\Charge::create(
 
   
 
-echo $charge->id; //”chg_x9Y92220200821i2X92701012”```
+echo '<pre>';
+var_dump($charge); //will give charge response as PHP object
+
+```
+
+
+## More Help
+
+* [[ Charges ]]
+* [[ Authorize ]]
