@@ -8,7 +8,9 @@
 
 
 # GoSell PHP SDK
-Official bindings to GoSell API
+Official bindings to GoSell API.
+
+** Note: Detailed REST API request and response schema can be found at [API Documentation](https://tap.company/developers)**
 
 ## Requirements
 This library supports PHP 5.6 and later.
