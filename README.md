@@ -91,6 +91,9 @@ var_dump($charge); //will give charge response as PHP object
 
 ## Code samples
 * [ Customers ](./examples/customersExample.php)
+* [ Charges ](./examples/chargesExample.php)
+* [ Authorize ](./examples/authorizeExample.php)
+* [ Refunds ](./examples/refundsExample.php)
 
 ## More Help
 * [API Documentation](https://tap.company/developers)
