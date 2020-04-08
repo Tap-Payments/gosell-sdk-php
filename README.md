@@ -36,11 +36,11 @@ use TapPayments\GoSell;
 
   
 //set yout secret key here
-GoSell::setSecretKey("sk_test_XKokBfNWv6FIYuTMg5sLPjhJ");
+GoSell::setPrivateKey("sk_test_XKokBfNWv6FIYuTMg5sLPjhJ");
 
   
 
-$charge = GoSell\Charge::create(
+$charge = GoSell\Charges::create(
 	[
       "amount"=> 1,
       "currency"=> "KWD",
